@@ -28,6 +28,7 @@ public class RPC_game{
             }
             if(your_input>2){
                 System.out.println("Enter numbers as 0,1&2 ONLY!");
+                i--;
                 continue;
             }
             else {
